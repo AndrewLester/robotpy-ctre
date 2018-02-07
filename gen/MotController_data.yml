@@ -91,7 +91,7 @@ c_MotController_Create1:
       
       # These two values are set when the set()/setDemand() functions are called
       'control_mode': 0,
-      'value': 0, # percent throttle
+      'value': 0.0, # percent throttle
       
       'neutral_mode': self.NeutralMode.EEPROMSetting,
       
